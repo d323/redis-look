@@ -1,5 +1,5 @@
 {
-  "name": "starter-app-react",
+  "name": "redis-look",
   "version": "1.0.0",
   "description": "",
   "main": "",
@@ -33,6 +33,7 @@
     ]
   },
   "dependencies": {
+    "axios": "^0.15.3",
     "bluebird": "^3.4.7",
     "debug": "^2.6.0",
     "dotenv": "^4.0.0",
@@ -47,6 +48,7 @@
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-tap-event-plugin": "^2.0.1",
+    "redis": "^2.6.5",
     "vantage": "^1.7.0"
   }
 }

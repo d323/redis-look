@@ -10,4 +10,8 @@ services:
       - ${PWD}:/service
     ports:
       - '4000:8080'
+    links:
+      - cache
     command: npm run start
+  cache:
+    image: redis
