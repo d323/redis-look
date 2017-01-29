@@ -1,0 +1,52 @@
+{
+  "name": "starter-app-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build.server": "./node_modules/.bin/babel -D -s false -d ./server ./src/server",
+    "build.ui": "./node_modules/.bin/webpack",
+    "lint": "./node_modules/.bin/eslint ./",
+    "start": "node ./server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.14.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.0",
+    "webpack": "^2.2.0"
+  },
+  "babel": {
+    "presets": [
+      "latest",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "debug": "^2.6.0",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.16.7",
+    "moment": "^2.17.1",
+    "mongoose": "^4.7.8",
+    "raven": "^1.1.1",
+    "raven-js": "^3.9.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1",
+    "vantage": "^1.7.0"
+  }
+}
